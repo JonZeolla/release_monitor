@@ -1,4 +1,6 @@
 # Release Monitor
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FJonZeolla%2Frelease_monitor.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FJonZeolla%2Frelease_monitor?ref=badge_shield)
+
 
 This project uses the unauthenticated GitHub APIs to identify if the provided commit is in a stable release for the provided account/repo. It is meant to be run periodically to identify when a release with the provided commit is detected.
 
@@ -32,3 +34,7 @@ API_ID=example
 ./client.py --account $ACCOUNT --repository $REPOSITORY --commit $COMMIT --rest-api-id $API_ID
 ```
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FJonZeolla%2Frelease_monitor.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FJonZeolla%2Frelease_monitor?ref=badge_large)
